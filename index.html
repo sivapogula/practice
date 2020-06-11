@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/action_page.php">
+        <h1> SURVEY FORM</h1>
+        <fieldset>
+    </form><label for="name"> Name:</label>
+    <input type="text" id="Name" name="Name" placeholder="Enter Your Name"><br><br>
+    <form><label for="Email"> Email:</label>
+     <input type="email" id="Email" name="email" placeholder="Enter your Mail" ><br><br>
+     <label for="Age">Age:</label>
+     <input type="number" id="Age" name="Age" min="1" max="100" value="Age"><br><br>
+     <label for="role">Which option best describes <br>your Current Role?:</label>
+     <select id="role" name="role">
+       <option value="Student">Student</option>
+       <option value="Business">Business</option>
+       <option value="Employee">Employee</option></select><br><br>
+    <lable for>How likely is that you would recommaneded for <br>
+        FreeCodeCamp to a friend?</label><br><br>
+       <input type="radio" id="work" name="status" >
+       <label for="status">Definately</label><br>
+       <input type="radio" id="work" name="status" >
+       <label for="status">Maybe</label><br>
+       <input type="radio" id="work" name="status" >
+       <label for="status">Not Sure</label><br>
+       <label for="role">What Do You like most in FCC:</label>
+       <select id="role" name="role">
+         <option value="select an option">Select an option</option>
+       </select><br><br>
+       <lable for>Things that Should be improved in future<br>
+    Check all that Apply :</label><br>
+    <input type="checkbox" id="Projects" name="Project" value="Project">
+    <label for="projects"> Fron-tEnd  Projects</label><br>
+    <input type="checkbox" id="Projects" name="Project" value="Project">
+    <label for="projects"> Back-End  Projects</label><br>
+    <input type="checkbox" id="Projects" name="Project" value="Project">
+    <label for="projects"> Data Visualization</label><br>
+     
+     
+    </fieldset>
+</form>    
+</body>
+</html>
